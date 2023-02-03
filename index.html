@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 이서윤체 폰트 적용을 위한 코드 */
+    @font-face {
+      font-family: "LeeSeoyun";
+      src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
+        format("woff");
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+  <link rel="stylesheet" href="./main.css">
+  <script defer src="./main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="photos">
+      <div id="image1" class="photo-frame"
+        onmouseover="hideText(1)"
+        onmouseout="showText(1)"
+        onclick="alertText(1)"
+      >
+        <span id="desc1" class="photo-description">
+          슥삭이 거의 갓 태어남
+        </span>
+      </div>
+      <div id="image2" class="photo-frame"
+        onmouseover="hideText(2)"
+        onmouseout="showText(2)"
+        onclick="alertText(2)"
+      >
+        <span id="desc2" class="photo-description">
+          아부바바바바
+        </span>
+      </div>
+      <div id="image3" class="photo-frame"
+        onmouseover="hideText(3)"
+        onmouseout="showText(3)"
+        onclick="alertText(3)"
+      >
+        <span id="desc3" class="photo-description">
+          불만이 많은 꼬맹이 슥삭
+        </span>
+      </div>
+      <div id="image4" class="photo-frame"
+        onmouseover="hideText(4)"
+	      onmouseout="showText(4)"
+	      onclick="alertText(4)"
+      >
+        <span id="desc4" class="photo-description">
+          배시시 웃는 왕발이
+        </span>
+        <!-- <iframe 
+          src="https://www.youtube.com/embed/TWz1btekxfs" 
+          frameborder="0"
+          class="video">
+        </iframe> -->
+      </div>
+    </div>
+   
+    <div class="footer">
+      <p class="f-title">Happy Seungseob Time</p>
+      <p class="f-date">2023.02.04</p>
+    </div>
+  </div>
+</body>
+</html>
